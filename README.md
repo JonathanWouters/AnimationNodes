@@ -1,5 +1,20 @@
 # Animation Nodes
-A package to help setup and control playable graphs
+A package to help setup and control playable graphs.
+The aim is to make it as easy and fast as possible to setup playable graphs with multiple animators and provide a performant way of updating weights and time for playables.
+This package uses unity.mathematics and unity.burst to calculate weight blending.
+
+![image](https://github.com/JonathanWouters/AnimationNodes/assets/16886522/88b88d33-c433-4847-86b7-6b23e433f06f)
+
+## Available Nodes
+
+#### State Blend
+Node to transition between different animation states.
+
+#### Blend 1D
+Node to linearly blend between animations. 
+
+#### Blend 2D
+Node to blend between animations based on an xy coordinate (freeform cartesian blend).
 
 ## How to use
 
